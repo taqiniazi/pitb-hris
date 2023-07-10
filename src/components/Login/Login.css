@@ -1,0 +1,73 @@
+.login {
+    background:#00a966 url('../../assets/images/login_bg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.login_area {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.login_v_top{
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	max-width: 70px;
+	width: 100%;
+}
+.login_v_bottom{
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	max-width: 100px;
+	width: 100%;
+}
+.login_area input::placeholder{
+	color: #000;
+}
+.login_area input.form-control{
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-radius: 0;
+	padding-left: 0;
+/*	font-size: 18px;*/
+}
+
+.remember_me{
+	font-size: 14px;
+}
+.remember_me a {
+    color: #000;
+    text-decoration: underline;
+}
+.sign_in {
+    font-size: 36px;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 50px;
+}
+.sign_in:after {
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 4px;
+    bottom: 0;
+    background: #00AB67;
+}
+.login_area input.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #00AB67;
+}
+.sign_in .slogan{
+	font-size: 20px;
+	color: #9DA0A9;
+	font-weight:400;
+}
+
