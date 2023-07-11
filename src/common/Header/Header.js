@@ -25,12 +25,11 @@ function Header() {
                                 </span>                       
                             }  id="basic-nav-dropdown" align="end">  
                             <NavDropdown.Item href="#action/3.1">
-                            Another action
+                                Profile
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
-                                Another action
+                                Change Password
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/">
                                 Logout
@@ -40,7 +39,6 @@ function Header() {
                 </Navbar>
                 <Navbar expand="md" className='main_nav'>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="align-items-center  justify-content-between w-100" >
                                 <Nav.Link src="javascript:;">Dashboard</Nav.Link>
@@ -50,7 +48,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                                 <NavDropdown title="Manage Employees" id="basic-nav-dropdown" align="end">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -58,7 +55,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                                 <NavDropdown title="PIM Setup " id="basic-nav-dropdown" align="end">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -66,7 +62,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                                 <NavDropdown title="Appraisals" id="basic-nav-dropdown" align="end">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -74,7 +69,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                                 <NavDropdown title="Payroll Section" id="basic-nav-dropdown" align="end">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -82,7 +76,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                                 <NavDropdown title="Finance Utilities " id="basic-nav-dropdown" align="end">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -90,7 +83,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                                 <NavDropdown title="Reports" id="basic-nav-dropdown" align="end">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -98,7 +90,6 @@ function Header() {
                                         Another action
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
                                 </NavDropdown>
                             </Nav>
                         </Navbar.Collapse>
