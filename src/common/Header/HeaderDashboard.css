@@ -1,0 +1,29 @@
+@media screen and (max-width:1900px){
+    .container{
+        max-width: 1480px !important;
+    }
+}
+
+.header_dashboard .top_nav .nav-link {
+    
+    margin-left: 20px;
+}
+.header_dashboard #searchTop {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+.header_dashboard .top_dash_header_icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    color: #000;
+}

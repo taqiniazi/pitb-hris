@@ -5,6 +5,7 @@ import Login from "./components/Login/Login";
 import Home from "./components/Home/Home";
 import * as Icon from 'react-bootstrap-icons';
 import './App.css';
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Login />} />
+          <Route path="Dashboard" element={<Dashboard />} />
           <Route path="Home" element={<Home />} />
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}

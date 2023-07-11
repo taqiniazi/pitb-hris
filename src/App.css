@@ -17,3 +17,6 @@ a{color: #3566AB; white-space: normal;}
 .login_btn {
     padding: 12px 25px;
 }
+input.form-control{
+	height: 40px;
+}
