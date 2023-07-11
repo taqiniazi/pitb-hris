@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./common/Layout";
 import Login from "./components/Login/Login";
 import Home from "./components/Home/Home";
+import * as Icon from 'react-bootstrap-icons';
 import './App.css';
 
 function App() {
